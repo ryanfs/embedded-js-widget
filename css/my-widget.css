@@ -1,10 +1,15 @@
 @import cleanslate.css;
 
-#myWidget .mw-wrapper {
-	width: 220px !important;
-	color: #eee !important;
-	background: #333 !important;
-	border: 1px solid #444 !important;
-	padding: 5px !important;
-	border-radius: 5px !important;
+/*#myWidget .mw-wrapper {
+  width: 220px !important;
+  color: #eee !important;
+  background: #333 !important;
+  border: 1px solid #444 !important;
+  padding: 5px !important;
+  border-radius: 5px !important;
+
 }
+
+a {
+  color: orange;
+}*/

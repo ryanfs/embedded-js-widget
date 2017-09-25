@@ -1,5 +1,24 @@
 <div class="cleanslate">
   <div class="mw-wrapper">
-    <a href="#" on-click="mwClick">{{ cnt }} clicks!</a> last click: {{ ts }}
+    <div class="mw-input-group input_with_appended_unit_right">
+      <label>Loan Amount</label>
+      <span>$</span>
+      <input id="amount" type="number" class="amount" min="1" max="1000000" value="{{loanAmount}}" />
+    </div>
+
+    <div class="mw-input-group">
+      <label>Interest Rate (%)</label>
+      <input id="interest_rate" class="rate" type="number" min="0" max="100" value="10" step=".1" value="{{interestRate}}" />
+    </div>
+
+    <div class="mw-input-group">
+      <label>Months</label>
+      <input id="months" class="term" type="number" min="1" max="72" value="1" step="1" value="{{months}}" />
+    </div>
+
+    <div class="mw-input-group">
+    <label>Your estimated monthly payment</label>
+    <h2 id="payment">${{payment}}</h2>
+  </div>
   </div>
 </div>
