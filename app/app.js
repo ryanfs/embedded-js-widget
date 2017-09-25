@@ -29,6 +29,8 @@ define(['jquery', 'Ractive', 'rv!templates/template', 'text!css/my-widget_embed.
         var interest = (loanAmount * (interestRate * .01)) / months;
         var payment = ((loanAmount / months) + interest).toFixed(2);
         payment = payment.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+        if (isNaN(payment)) { payment = '0.00'; }
         this.set('payment', payment);
       });
     }
