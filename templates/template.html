@@ -20,7 +20,35 @@
 
     <div class="mw-input-group">
     <label>Your estimated monthly payment</label>
-    <h2 id="payment">${{payment}}</h2>
+    <h2 id="payment" color="dark-blue">${{payment}}</h2>
+
+    <hr>
+
+    <div class="mw-input-group">
+      <h3>Have our team contact you</h3>
+    </div>
+
+      <form action="https://formspree.io/rfsalerno@gmail.com"
+            method="POST">
+        <div class="mw-input-group">
+          <label>Your email</label>
+          <input type="email" placeholder="your@email.com" name="_replyto">
+        </div>
+
+        <div class="mw-input-group">
+          <button type="submit" class="blue-dark" value="Send">Submit</button>
+        </div>
+      </form>
+
+<!--     <div class="mw-input-group">
+      <label>Your email</label>
+      <input type="text" placeholder="your@email.com" />
+    </div>
+
+    <div class="mw-input-group">
+      <button class="blue-dark">Submit</button>
+    </div>
+ -->
   </div>
   </div>
 </div>

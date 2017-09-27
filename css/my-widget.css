@@ -63,6 +63,17 @@
 }
 
 .mw-wrapper input[type=number] {
+  box-sizing: border-box;
+  width: 95%;
+  padding: 10px 15px;
+  font-size: 140%;
+  border: 0;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  background: white;
+}
+
+.mw-wrapper input[type=number] {
     box-sizing: border-box;
     width: 95%;
     padding: 10px 15px;
