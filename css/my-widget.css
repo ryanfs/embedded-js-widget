@@ -107,7 +107,7 @@
 .mw-wrapper .gold a.btn {
     display: block;
     box-sizing: border-box;
-    width: 100%;
+    width: 95%;
     padding: 10px 20px;
     font-size: 1.5em;
     border: 0;
@@ -119,17 +119,6 @@
     opacity: .9;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 200
-}
-
-.mw-wrapper button.wide,
-.mw-wrapper input[type=submit].wide,
-.mw-wrapper .btn.wide,
-.mw-wrapper a.btn.wide,
-.mw-wrapper .grey a.btn.wide,
-.mw-wrapper .blue a.btn.wide,
-.mw-wrapper .blue-dark a.btn.wide,
-.mw-wrapper .gold a.btn.wide {
-    width: 95%
 }
 
 .mw-wrapper button.blue,
