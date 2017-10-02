@@ -73,7 +73,7 @@
   background: white;
 }
 
-.mw-wrapper input[type=number] {
+.mw-wrapper input[type=email] {
     box-sizing: border-box;
     width: 95%;
     padding: 10px 15px;
@@ -97,21 +97,20 @@
   right: 16px;
 }
 
-/*button,
-input[type=submit],
-.btn,
-a.btn,
-.grey a.btn,
-.blue a.btn,
-.blue-dark a.btn,
-.gold a.btn {
+.mw-wrapper button,
+.mw-wrapper input[type=submit],
+.mw-wrapper .btn,
+.mw-wrapper a.btn,
+.mw-wrapper .grey a.btn,
+.mw-wrapper .blue a.btn,
+.mw-wrapper .blue-dark a.btn,
+.mw-wrapper .gold a.btn {
     display: block;
     box-sizing: border-box;
     width: 100%;
     padding: 10px 20px;
     font-size: 1.5em;
     border: 0;
-    background: white;
     cursor: pointer;
     margin: 0 10px 5px 0;
     color: #5f626f;
@@ -122,81 +121,77 @@ a.btn,
     font-weight: 200
 }
 
-button.wide,
-input[type=submit].wide,
-.btn.wide,
-a.btn.wide,
-.grey a.btn.wide,
-.blue a.btn.wide,
-.blue-dark a.btn.wide,
-.gold a.btn.wide {
-    width: 100%
+.mw-wrapper button.wide,
+.mw-wrapper input[type=submit].wide,
+.mw-wrapper .btn.wide,
+.mw-wrapper a.btn.wide,
+.mw-wrapper .grey a.btn.wide,
+.mw-wrapper .blue a.btn.wide,
+.mw-wrapper .blue-dark a.btn.wide,
+.mw-wrapper .gold a.btn.wide {
+    width: 95%
 }
 
-button.blue,
-button.gold,
-button.grey,
-button.blue-dark,
-input[type=submit].blue,
-input[type=submit].gold,
-input[type=submit].grey,
-input[type=submit].blue-dark,
-.btn.blue,
-.btn.gold,
-.btn.grey,
-.btn.blue-dark,
-a.btn.blue,
-a.btn.gold,
-a.btn.grey,
-a.btn.blue-dark,
-.grey a.btn.blue,
-.grey a.btn.gold,
-.grey a.btn.grey,
-.grey a.btn.blue-dark,
-.blue a.btn.blue,
-.blue a.btn.gold,
-.blue a.btn.grey,
-.blue a.btn.blue-dark,
-.blue-dark a.btn.blue,
-.blue-dark a.btn.gold,
-.blue-dark a.btn.grey,
-.blue-dark a.btn.blue-dark,
-.gold a.btn.blue,
-.gold a.btn.gold,
-.gold a.btn.grey,
-.gold a.btn.blue-dark {
+.mw-wrapper button.blue,
+.mw-wrapper button.gold,
+.mw-wrapper button.grey,
+.mw-wrapper button.blue-dark,
+.mw-wrapper input[type=submit].blue,
+.mw-wrapper input[type=submit].gold,
+.mw-wrapper input[type=submit].grey,
+.mw-wrapper input[type=submit].blue-dark,
+.mw-wrapper .btn.blue,
+.mw-wrapper .btn.gold,
+.mw-wrapper .btn.grey,
+.mw-wrapper .btn.blue-dark,
+.mw-wrapper a.btn.blue,
+.mw-wrapper a.btn.gold,
+.mw-wrapper a.btn.grey,
+.mw-wrapper a.btn.blue-dark,
+.mw-wrapper .grey a.btn.blue,
+.mw-wrapper .grey a.btn.gold,
+.mw-wrapper .grey a.btn.grey,
+.mw-wrapper .grey a.btn.blue-dark,
+.mw-wrapper .blue a.btn.blue,
+.mw-wrapper .blue a.btn.gold,
+.mw-wrapper .blue a.btn.grey,
+.mw-wrapper .blue a.btn.blue-dark,
+.mw-wrapper .blue-dark a.btn.blue,
+.mw-wrapper .blue-dark a.btn.gold,
+.mw-wrapper .blue-dark a.btn.grey,
+.mw-wrapper .blue-dark a.btn.blue-dark,
+.mw-wrapper .gold a.btn.blue,
+.mw-wrapper .gold a.btn.gold,
+.mw-wrapper .gold a.btn.grey,
+.mw-wrapper .gold a.btn.blue-dark {
     color: white
 }
-
-button.blue,
-input[type=submit].blue,
-.btn.blue,
-a.btn.blue,
-.grey a.btn.blue,
-.blue a.btn.blue,
-.blue-dark a.btn.blue,
-.gold a.btn.blue {
+.mw-wrapper button.blue,
+.mw-wrapper input[type=submit].blue,
+.mw-wrapper .btn.blue,
+.mw-wrapper a.btn.blue,
+.mw-wrapper .grey a.btn.blue,
+.mw-wrapper .blue a.btn.blue,
+.mw-wrapper .gold a.btn.blue {
     background: #2db9ee
 }
-
-button.blue-dark,
-input[type=submit].blue-dark,
-.btn.blue-dark,
-a.btn.blue-dark,
-.grey a.btn.blue-dark,
-.blue a.btn.blue-dark,
-.blue-dark a.btn.blue-dark,
-.gold a.btn.blue-dark {
+.mw-wrapper button.blue-dark,
+.mw-wrapper input[type=submit].blue-dark,
+.mw-wrapper .btn.blue-dark,
+.mw-wrapper a.btn.blue-dark,
+.mw-wrapper .grey a.btn.blue-dark,
+.mw-wrapper .blue a.btn.blue-dark,
+.mw-wrapper .blue-dark a.btn.blue-dark,
+.mw-wrapper .gold a.btn.blue-dark {
     background: #0e7da7
 }
-
-button:hover,
-input[type=submit]:hover,
-.btn:hover,
-a.btn:hover,
-.grey a.btn:hover,
-.blue a.btn:hover,
-.blue-dark a.btn:hover,
-.gold a.btn:hover {
+.mw-wrapper button:hover,
+.mw-wrapper input[type=submit]:hover,
+.mw-wrapper .btn:hover,
+.mw-wrapper a.btn:hover,
+.mw-wrapper .grey a.btn:hover,
+.mw-wrapper .blue a.btn:hover,
+.mw-wrapper .blue-dark a.btn:hover,
+.mw-wrapper .gold a.btn:hover {
     opacity: 1
-}*/
+}

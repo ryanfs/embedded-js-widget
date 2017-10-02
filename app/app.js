@@ -1,4 +1,4 @@
-define(['jquery', 'Ractive', 'rv!templates/template', 'text!css/my-widget_embed.css'], function ($, Ractive, mainTemplate, css) {
+define(['jquery', 'Ractive', 'rv!templates/template', 'text!css/my-widget.css'], function ($, Ractive, mainTemplate, css) {
 
   'use strict';
 
